@@ -22,10 +22,11 @@ The project covers about securing the flask application
 #### Generate certs 
 - 
 
-`` 
+
 Certification generation used here is a basic 
 PKI mechanism , more complex can be achieved , Below links can provide more complex implemnetation of PKI
- ``
+create a folder certs and generate the certs
+
  
  ![certs generation](images/certs.png) 
  
