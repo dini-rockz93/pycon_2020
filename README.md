@@ -17,11 +17,13 @@ The project covers about securing the flask application
 - configure the port and host requirements in ``` config_main.py```
 - run ``python script_rest.py``
 - Navigate to certs folder and test the endpoint 
+   
    ``
    curl -k --key ./client.key --cert ./client.crt https://127.0.0.1:1947
-{
-  "mood": "howdy !!"
-}
+
+    {
+        "mood": "howdy !!"
+    }
 
   ``
     
