@@ -29,14 +29,8 @@ PKI mechanism , more complex can be achieved , Below links can provide more comp
  
  ![certs generation](images/certs.png) 
  
- 
-##### links 
-
-- https://pki-tutorial.readthedocs.io/en/latest/
-- https://www.appviewx.com/education-center/public-key-infrastructure/what-is-public-key-infrastructure-pki/
-- https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
 
  
- For any queries you can reach out to `` **vijayadinesh93@gmail.com** ``
+ For any queries you can reach out to **vijayadinesh93@gmail.com** 
 
 
