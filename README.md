@@ -6,13 +6,18 @@ The project covers about securing the flask application
 - Basic understanding of python3 
 - Good to have understanding about Flask and SSL, but not mandatory 
 
+### workflow
+
+ ![certs generation](images/workflow.png) 
+
+
 ### steps
 
 - clone the git repository
 - configure the port and host requirements in ``` config_main.py```
 - run ``python script_rest.py``
 - hit the endpoint and test it 
- ''https://127.0.0.1:1947/''
+ curl -K 'https://127.0.0.1:1947/'
  
 #### Generate certs 
 - 
@@ -22,7 +27,7 @@ Certification generation used here is a basic
 PKI mechanism , more complex can be achieved , Below links can provide more complex implemnetation of PKI
  ``
  
- ![certs generation](images/certs.svg) 
+ ![certs generation](images/certs.png) 
  
  
 ##### links 
