@@ -16,12 +16,17 @@ The project covers about securing the flask application
 - clone the git repository
 - configure the port and host requirements in ``` config_main.py```
 - run ``python script_rest.py``
-- hit the endpoint and test it 
- curl -K 'https://127.0.0.1:1947/'
+- Navigate to certs folder and test the endpoint 
+   ``
+   curl -k --key ./client.key --cert ./client.crt https://127.0.0.1:1947
+{
+  "mood": "howdy !!"
+}
+
+  ``
+    
  
 #### Generate certs 
-- 
-
 
 Certification generation used here is a basic 
 PKI mechanism , more complex can be achieved , Below links can provide more complex implemnetation of PKI
