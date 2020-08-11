@@ -1,12 +1,20 @@
-from config_main import *
-from flask import Flask
+from config_main import host, port, threaded, debug, message, scode
+from flask import Flask, jsonify, make_response
+from config_ssl import context
 
 app = Flask('__name__')
+host_config = {
+    "host": host,
+    "port": port,
+    "threaded": threaded,
+    "debug": debug,
+    "ssl_context": context
+}
 
 
 @app.route('/')
 def home():
-    return "hello world"
+    return make_response(jsonify(message), scode)
 
 
 if __name__ == "__main__":
